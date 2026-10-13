@@ -67,4 +67,4 @@ desktop.ini
 
 
 # Keep local database configuration out of Git
-backend/src/main/resources/application.properties
+/backend/src/main/resources/application-local.properties

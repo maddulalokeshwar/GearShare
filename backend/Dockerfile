@@ -1,5 +1,3 @@
-
-# Build GearShare using Java 21 and Maven
 FROM maven:3.9-eclipse-temurin-21 AS build
 
 WORKDIR /app
@@ -11,7 +9,6 @@ COPY src/ src/
 
 RUN chmod +x mvnw && ./mvnw -DskipTests package
 
-# Run the Spring Boot application
 FROM eclipse-temurin:21-jre
 
 WORKDIR /app
