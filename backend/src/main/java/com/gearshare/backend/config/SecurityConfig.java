@@ -78,7 +78,7 @@ public class SecurityConfig {
         List.of(
                 "http://localhost:5173",
                 "https://gearshare-one.vercel.app",
-                "https://gearshare-q7voxvn67-maddulalokeshwar5-9107s-projects.vercel.app"
+                "https://gearshare-7if1k2t2g-maddulalokeshwar5-9107s-projects.vercel.app"
         )
 );
         configuration.setAllowedMethods(
