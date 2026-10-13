@@ -77,8 +77,7 @@ public class SecurityConfig {
         configuration.setAllowedOrigins(
         List.of(
                 "http://localhost:5173",
-                "https://gearshare-one.vercel.app",
-                "https://gearshare-7if1k2t2g-maddulalokeshwar5-9107s-projects.vercel.app"
+                "https://gearshare-one.vercel.app"
         )
 );
         configuration.setAllowedMethods(
